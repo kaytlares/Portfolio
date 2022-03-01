@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400&family=Righteous&display=swap" rel="stylesheet">
+    <title>PS5</title>
+</head>
+<body>
+
+<!--This is the header part-->
+<header>
+   <h1>PS5 Idea Generator</h1>
+   <a href="#">Home</a>
+   <a href="#">Blog</a>
+   <a href="#">About</a>
+   <a href="#">Contact Us</a>
+</header>
+
+
+<!--This is the first picture for the website-->
+<img src="images/ps5.jpg" alt="A white and black PS5, with a white and black PS5 controller.">
+
+<!--This is text letting the user know what they have to do-->
+<p class="words">The PS5 is one of the most sought-after consoles of the decade. The PS5 is a console loved by many with its new captivating features.
+    The PS5 has an enormous aftermarket. If you are unsure where your next adventure begins or what design or stylish accessory to get, look no further than our idea generator. All you have to do is fill out 
+    the questionnaire below to help you find new ideas. 
+</p>
+
+<!--This is our form being generated-->
+<form action="input.php" method="POST"> 
+<fieldset>
+    <legend>Personal Information:</legend>
+    <label>First Name</label>
+    <input type="text" placeholder="First Name" name="name">
+    <br/>
+    <br/>
+    <label>Email Address</label>
+    <input type="text" placeholder="Email Address" name="email">
+    <br/>
+</fieldset>
+<!--1st question radio button. -->
+    <br/>
+    <fieldset>
+    <legend>PS5 Preferences:</legend>
+    <label>Do you currently own a PS5?</label>
+    <br/>
+    <input type="radio"  name="answer" value="Yes"/>Yes 
+    <input type="radio"  name="answer" value="No"/> No
+    <br/>
+
+<!--2nd question radio button-->
+    <br/>
+    <label>Which PS5 do you currently own or would prefer to own?</label>
+    <br/>
+    <input type="radio"  name="game" value="Digital"/>Digital (No Disc Drive)
+    <input type="radio"  name="game" value="Disc"/> Disc
+    <br/>
+</fieldset>
+<!--3rd question Checkbox-->
+    <br/>
+<fieldset>
+    <legend>PS5 Questionare:</legend>
+    <label>Which features do you like about the PS5?</label>
+    <br/>
+    <input type="checkbox"  name="features" value="Adaptive triggers"/>Adaptive triggers
+    <br/>
+    <input type="checkbox"  name="features" value="3D Audio"/>3D Audio
+    <br/>
+    <input type="checkbox"  name="features" value="Haptic feedback"/>Haptic feedback
+    <br/>
+    <input type="checkbox"  name="features" value="Ray tracing"/>Ray tracing
+    <br/>
+    <input type="checkbox"  name="features" value="Two tone color"/>Two tone color
+    <br/>
+    <input type="checkbox"  name="features" value="Interface layout"/>Interface layout
+    <br/>
+<!--4th question Checbox-->
+    <br/>
+    <label>What is your favorite game genre?</label>
+    <br/>
+    <input type="radio"  name="genre" value="Action"/> Action (Call of Duty)
+    <br/> 
+    <input type="radio"  name="genre" value="Adventure"/> Adventure (Legend of Zelda)
+    <br/>
+    <input type="radio"  name="genre" value="Role-playing"/>Role-playing (Final Fantasy)
+    <br/>
+    <input type="radio"  name="genre" value="Strategy"/> Strategy (League of Legends)
+    <br/>
+    <input type="radio"  name="genre" value="Simulation"/>Simulation (Sims 4)
+    <br/>
+    <input type="radio"  name="genre" value="Puzzle"/>Puzzle (Candy Crush)
+    <br/>
+    <input type="radio"  name="genre" value="Sports"/>Sports  (NBA 2K)
+    <br/>
+    <input type="radio"  name="genre" value="Racing"/>Racing  (Midnight Club)
+    <br/>
+
+<!--5th question -->
+    <br/>
+    <label>Which one of these Sony gaming consoles have you previously owned?</label>
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation"/>Playstation
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation 2"/>Playstation 2
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation 3" />Playstation 3
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation 4" />Playstation 4
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation 5" />Playstation 5
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation Portable" />Playstation Portable
+    <br/>
+    <input type="checkbox"  name="console" value="Playstation Vita" />Playstation Vita
+    <br/>
+    <input type="checkbox"  name="console" value="None" />None
+    <br/>
+<!--6th question radio button-->
+    <br/>
+    <label>Do you currently play online games or are interested in playing online?</label>
+    <br/>
+    <input type="radio"  name="answertwo" value="Yes"/>Yes
+    <input type="radio"  name="answertwo" value="No"/> No
+    <br/>
+<!--7th question radio button-->
+    <br/>
+    <label>What future idea do you most want to see the PS5 have?</label>
+    <br/>
+    <input type="radio"  name="idea" value="More exclusive games"/> More exclusive games
+    <br/>
+    <input type="radio"  name="idea" value="PS5 in local stores"/> PS5 in local stores
+    <br/>
+    <input type="radio"  name="idea" value="PS5 Slim"/> PS5 Slim
+    <br/>
+    <input type="radio"  name="idea" value="PS5 Pro"/> PS5 Pro
+    <br/>
+    <input type="radio"  name="idea" value="More PS5 shell and controller colors"/>More PS5 shell and controller colors
+    <br/>
+    <input type="radio"  name="idea" value="Extra storage"/>Extra storage from the manufacturer
+    <br/>
+    <input type="radio"  name="idea" value="The ability to change the console and controller colors"/>The ability to change the console and controller colors
+    <br/>
+    <input type="radio"  name="idea" value="Backwards Compatibility"/> Backward Compatibility 
+
+    <input type="radio"  name="idea" value="Themes"/>Themes
+    <br/>
+    <input type="radio"  name="idea" value="Everything is already great"/> Everything is great already
+    </br>
+
+<!--8th Question drop down menu. This is what our IF ELSE statements depends on-->
+    <br/>
+    <label>What category of products are you interested in generating?</label>
+    <br/>
+    <select name="options">
+    <option value="Games">Games</option>
+    <option value="Accessories">Accessories</option>
+    <option value="Design">Design</option>
+    </select>
+    <br/>
+
+<!--9th Question checkbox-->
+    <br/>
+    <label>Sign me up for email updates about the PS5</label>
+    <br/>
+    <input type="checkbox"  name="answer" value="Yes"/>Yes
+    <br/>
+</fieldset>
+<!--10th Question comment box-->
+<br/>
+<label>Comments or Concerns?</label>
+<br/>
+<textarea name="comments" cols="50" rows="6">Enter your comments here...</textarea>
+<br/>
+<!--Create a submit button-->
+</br>
+<button type="submit"> Generate Me Some Ideas </button>  
+         </form>
+    </body>
+</html>
